@@ -30,10 +30,10 @@
 // ------------------------------------------------------------------------- //
 
 $modversion['name'] = _MI_WAITING_NAME;
-$modversion['version'] = 0.96;
+$modversion['version'] = 2.30;
 $modversion['description'] = _MI_WAITING_DESC;
-$modversion['author'] = "";
-$modversion['credits'] = "Ryus";
+$modversion['author'] = "Ryuji AMANO, GIJOE";
+$modversion['credits'] = "@nao-pon Naoki Sawada, @gigamaster (XCL7)";
 $modversion['help'] = "";
 $modversion['license'] = "GPL see LICENSE";
 $modversion['official'] = 0;
@@ -59,5 +59,3 @@ $modversion['blocks'][1]['options'] = '1|5';
 if( ! empty( $_POST['fct'] ) && ! empty( $_POST['op'] ) && $_POST['fct'] == 'modulesadmin' && $_POST['op'] == 'update_ok' && $_POST['dirname'] == $modversion['dirname'] ) {
 	include dirname( __FILE__ ) . "/include/updateblock.inc.php" ;
 }
-
-?>

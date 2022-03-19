@@ -6,10 +6,10 @@
 //
 
 // The name of this module
-define("_MI_WAITING_NAME","Waiting Contents Extensible");
+define("_MI_WAITING_NAME","Gestion extensible des Contenus en Attente");
 
 // A brief description of this module
-define("_MI_WAITING_DESC","Displays a block of waiting contents for 3rd party modules.");
+define("_MI_WAITING_DESC","Montre &agrave; l'administrateur les contenus en attente dans un bloc.");
 
 // Names of blocks for this module (Not all module has blocks)
-define("_MI_WAITING_BNAME1", "Waiting Contents Ext");
+define("_MI_WAITING_BNAME1", "Contenus en attente");

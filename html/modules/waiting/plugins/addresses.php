@@ -37,5 +37,3 @@ function b_waiting_addresses()
 
 	return $ret;
 }
-
-?>

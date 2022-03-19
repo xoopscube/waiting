@@ -64,5 +64,3 @@ function waiting_get_plugin_info( $dirname , $language = 'english' )
 
 	return $ret ;
 }
-
-?>
