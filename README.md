@@ -14,9 +14,9 @@ MODULE |  Module Waiting
 ------------ | -------------
 Description  | Block to show pending content
 Render Engine| Smarty v2 and XCube Layout
-Version      | 2.61
-Author       | GIJOE (https://peak.ne.jp/)
+Version      | 2.30
 Author       | @RyujiAMANO Ryuji Amano (https://ryus.co.jp/)
+Author       | GIJOE (https://peak.ne.jp/)
 Update       | Update by @nao-pon Naoki Sawada, @gigamaster Nuno Luciano (XCL7)
 Copyright    | 2005-2022 Authors
 License      | XCL module distributed under a GPL 2.0 License.
