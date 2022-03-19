@@ -15,8 +15,8 @@ MODULE |  Module Waiting
 Description  | Block to show pending content
 Render Engine| Smarty v2 and XCube Layout
 Version      | 2.30
-Author       | @RyujiAMANO Ryuji Amano (https://ryus.co.jp/)
 Author       | GIJOE (https://peak.ne.jp/)
+Author       | @RyujiAMANO Ryuji Amano (https://ryus.co.jp/)
 Update       | Update by @nao-pon Naoki Sawada, @gigamaster Nuno Luciano (XCL7)
 Copyright    | 2005-2022 Authors
 License      | XCL module distributed under a GPL 2.0 License.
@@ -37,24 +37,22 @@ License      | XCL module distributed under a GPL 2.0 License.
 ## ///// — Module Waiting
 
 
-# waiting
-プラグインで拡張可能な承認待ちコンテンツブロックを表示するモジュール
+This module features an extensible Block of waiting content in a single view.  
 
-PEAK XOOPS - Support&Experiment <http://xoops.peak.ne.jp/> さんで配布されているモジュールを XOOPS X(ten) ディストリビューションでメンテナンスをしています。
+The original XOOPS2 block of "Waiting Contents" works only for official modules,  
+and is no longer extensible. It is nonsense to hack it for XCL when using 3rd party modules.  
 
-## 以下、元のパッケージに添付されていた README
+By installing this module and adding the proper plug-ins only,  
+webmasters can approve and confirm pending content from any module.  
 
-[xlang:en]
 
-- WAITING MODULE -
 
-This module features an extensible Block of waiting content in a single view.
+          PEAK XOOPS --Support & Experiment  
+          A module that displays plugin-extensible content blocks awaiting approval
+          The module distributed by xoops.peak.ne.jp  
+          maintained by XOOPS X (ten) distribution.
 
-The original XOOPS2 block of "Waiting Contents" works only for official modules,
-and is no longer extensible. It is nonsense to hack it for XCL when using 3rd party modules.
-
-By installing this module and adding the proper plug-ins only,
-webmasters can approve and confirm pending content from any module.
+Below, the README that came with the original package
 
 -----
 
