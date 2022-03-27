@@ -1,13 +1,10 @@
 <?php
-// $Id: blocks.php,v 1.2 2005/04/05 02:48:40 gij Exp $
+// Syntax replace define with const v2.3.0 2021/05/15 @gigamaster XCL-PHP7
 // FILE		::	blocks.php
 // AUTHOR	::	Ryuji AMANO <info@ryus.co.jp>
 // WEB		::	Ryu's Planning <http://ryus.co.jp/>
 //
 
-define("_MB_WAITING_NOWAITING_DISPLAY","承認待ちコンテンツが無くても表示する");
-define("_MB_WAITING_SQL_CACHE","クエリキャッシュ");
-define("_MB_WAITING_LINKTOPLUGINCHECK","プラグインのチェック");
-
-
-?>
+const _MB_WAITING_NOWAITING_DISPLAY = "承認待ちコンテンツが無くても表示する";
+const _MB_WAITING_SQL_CACHE = "クエリキャッシュ";
+const _MB_WAITING_LINKTOPLUGINCHECK = "プラグインのチェック";
