@@ -6,10 +6,10 @@
 //
 
 // The name of this module
-const _MI_WAITING_NAME = "Waiting Contents Extensible";
+const _MI_WAITING_NAME = "Extensible Content Waiting Approval";
 
 // A brief description of this module
-const _MI_WAITING_DESC = "Displays a block of waiting contents for 3rd party modules.";
+const _MI_WAITING_DESC = "Displays a block of content waiting approval for 3rd party modules.";
 
 // Names of blocks for this module (Not all module has blocks)
-const _MI_WAITING_BNAME1 = "Waiting Contents Ext";
+const _MI_WAITING_BNAME1 = "Waiting Approval";

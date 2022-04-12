@@ -7,4 +7,4 @@
 
 const _MB_WAITING_NOWAITING_DISPLAY = "Toujours visible";
 const _MB_WAITING_SQL_CACHE = "cache SQL";
-const _MB_WAITING_LINKTOPLUGINCHECK = "V&eacute;rifier les plugins";
+const _MB_WAITING_LINKTOPLUGINCHECK = "Vérifier les plugins";

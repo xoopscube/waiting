@@ -9,4 +9,4 @@ const _AM_WAITING_MODNAME = 'Modules';
 const _AM_WAITING_STATUS = 'Status';
 
 const _AM_WAITING_PLUGINLIST = 'Plugin Checker';
-const _AM_WAITING_PLUGINLIST_DESC = '<b>module:</b> using the original plugin included in the module<br /><b>built-in:</b> using the bundled plugin in Waiting Contents Extensible<br /><b>Blank:</b> no plugins found';
+const _AM_WAITING_PLUGINLIST_DESC = '<b>module:</b> use the plugin included in the module<br /><b>built-in:</b> use the bundled plugin in Waiting Approval<br /><b>Blank:</b> no plugins found';

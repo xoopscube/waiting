@@ -9,7 +9,7 @@
 const _MI_WAITING_NAME = "Gestion extensible des Contenus en Attente";
 
 // A brief description of this module
-const _MI_WAITING_DESC = "Montre &agrave; l'administrateur les contenus en attente dans un bloc.";
+const _MI_WAITING_DESC = "Affiche les contenus en attente dans un bloc.";
 
 // Names of blocks for this module (Not all module has blocks)
 const _MI_WAITING_BNAME1 = "Contenus en attente";

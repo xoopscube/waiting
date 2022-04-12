@@ -8,5 +8,5 @@
 const _AM_WAITING_MODNAME = 'Modules';
 const _AM_WAITING_STATUS = 'Statuts';
 
-const _AM_WAITING_PLUGINLIST = 'Contr&ocirc;leur de Plugin';
-const _AM_WAITING_PLUGINLIST_DESC = '<b>module:</b> Utilises le plugin original inclu dans le package du module<br /><b>waiting:</b> Utilises le plugin inclu dans ce module<br /><b>Blank:</b> Aucun plugin trouv&eacute;';
+const _AM_WAITING_PLUGINLIST = 'Controleur de Plugin';
+const _AM_WAITING_PLUGINLIST_DESC = '<b>module:</b> Utilises le plugin original du module<br /><b>waiting:</b> utiliser le plugin en Attente de Validation<br><b>Blanc:</b> Aucun plugin trouvé';
