@@ -1,46 +1,20 @@
 <?php
-// $Id: xoops_version.php,v 1.7 2005/04/23 10:07:12 gij Exp $
-//  ------------------------------------------------------------------------ //
-//                XOOPS - PHP Content Management System                      //
-//                    Copyright (c) 2000 XOOPS.org                           //
-//                       <http://www.xoops.org/>                             //
-//  ------------------------------------------------------------------------ //
-//  This program is free software; you can redistribute it and/or modify     //
-//  it under the terms of the GNU General Public License as published by     //
-//  the Free Software Foundation; either version 2 of the License, or        //
-//  (at your option) any later version.                                      //
-//                                                                           //
-//  You may not change or alter any portion of this comment or credits       //
-//  of supporting developers from this source code or any supporting         //
-//  source code which is considered copyrighted (c) material of the          //
-//  original comment or credit authors.                                      //
-//                                                                           //
-//  This program is distributed in the hope that it will be useful,          //
-//  but WITHOUT ANY WARRANTY; without even the implied warranty of           //
-//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the            //
-//  GNU General Public License for more details.                             //
-//                                                                           //
-//  You should have received a copy of the GNU General Public License        //
-//  along with this program; if not, write to the Free Software              //
-//  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
-//  ------------------------------------------------------------------------ //
-// Author: Kazumi Ono (AKA onokazu)                                          //
-// URL: http://www.myweb.ne.jp/, http://www.xoops.org/, http://jp.xoops.org/ //
-// Project: The XOOPS Project                                                //
-// ------------------------------------------------------------------------- //
 
-$modversion['name'] = _MI_WAITING_NAME;
-$modversion['version'] = 2.30;
-$modversion['description'] = _MI_WAITING_DESC;
-$modversion['author'] = "Ryuji AMANO, GIJOE";
-$modversion['credits'] = "@nao-pon Naoki Sawada, @gigamaster (XCL7)";
-$modversion['help'] = "";
-$modversion['license'] = "GPL see LICENSE";
-$modversion['official'] = 0;
-$modversion['image'] = "images/waiting_slogo.png";
-$modversion['dirname'] = "waiting";
+// Manifesto
+$modversion['dirname']          = "waiting";
+$modversion['name']             = _MI_WAITING_NAME;
+$modversion['version']          = '2.31';
+$modversion['detailed_version'] = '2.31.1';
+$modversion['description']      = _MI_WAITING_DESC;
+$modversion['author']           = "Ryuji AMANO, GIJOE";
+$modversion['credits']          = "@nao-pon Naoki Sawada, @gigamaster (XCL7)";
+$modversion['license']          = "GPL see LICENSE";
+$modversion['image']            = "images/waiting_slogo.png";
+$modversion['icon']             = 'images/module_icon.svg';
+$modversion['help']             = "";
+$modversion['official']         = 0;
 
-// Admin things
+// Admin
 $modversion['hasAdmin'] = 0;
 $modversion['adminindex'] = "admin/index.php";
 
