@@ -13,4 +13,3 @@ function b_waiting_recette(){
 
 	return $block;
 }
-?>

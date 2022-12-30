@@ -30,4 +30,3 @@ function b_waiting_xfsection()
 
 	return $ret;
 }
-?>

@@ -15,4 +15,3 @@ function b_waiting_agendax()
 
 	return $block;
 }
-?>

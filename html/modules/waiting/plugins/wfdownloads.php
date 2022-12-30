@@ -58,5 +58,3 @@ function b_waiting_wfdownloads()
 
 	return $ret;
 }
-
-?>

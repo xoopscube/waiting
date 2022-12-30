@@ -26,7 +26,7 @@
 //  ------------------------------------------------------------------------ //
 // Author: Kazumi Ono (AKA onokazu)                                          //
 // URL: http://www.myweb.ne.jp/, http://www.xoops.org/, http://jp.xoops.org/ //
-// Project: The XOOPS Project                                                //
+// GNU General Public License                                             //
 // ------------------------------------------------------------------------- //
 
 // EXTENSIBLE "waiting block" by plugins in both waiting and modules

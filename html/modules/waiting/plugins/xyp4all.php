@@ -45,5 +45,3 @@ function b_waiting_xyp4all()
 
 	return $ret;
 }
-
-?>

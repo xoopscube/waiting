@@ -14,4 +14,3 @@ function b_waiting_AMS()
 
 	return $block;
 }
-?>

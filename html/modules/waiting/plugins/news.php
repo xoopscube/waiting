@@ -13,4 +13,3 @@ function b_waiting_news(){
 
 	return $block;
 }
-?>

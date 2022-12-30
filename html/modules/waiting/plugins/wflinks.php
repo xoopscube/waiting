@@ -45,6 +45,3 @@ function b_waiting_wflinks()
 
 	return $ret;
 }
-
-
-?>

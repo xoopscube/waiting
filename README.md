@@ -1,34 +1,72 @@
-# waiting
-プラグインで拡張可能な承認待ちコンテンツブロックを表示するモジュール
 
-PEAK XOOPS - Support&Experiment <http://xoops.peak.ne.jp/> さんで配布されているモジュールを XOOPS X(ten) ディストリビューションでメンテナンスをしています。
+[![UTD powered-by-electricity](http://ForTheBadge.com/images/badges/powered-by-electricity.svg)](https://github.com/gigamaster/xelfinder)
+[![UTD](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/gigamaster/xelfinder)
 
-## 以下、元のパッケージに添付されていた README
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/2.0.0/active.svg)](https://github.com/xoopscube/xcl)
+![License GPL](https://img.shields.io/badge/License-GPL-green)
+![X-Updare Store](https://img.shields.io/badge/X--Update%20Store-Pending-red)
 
-[xlang:en]
+## ///// — Waiting :: Module Utility Block
 
-- WAITING MODULE -
+![alt text](https://repository-images.githubusercontent.com/469831419/6032bf18-5c1e-4f27-aa2f-2b8e60f4e5)
 
-This module offers you an extensible waiting contents block into your XOOPS.
+MODULE |  Module Waiting
+------------ | -------------
+Description  | Block to show pending content
+Render Engine| Smarty v2 and XCube Layout
+Version      | 2.30
+Author       | GIJOE (https://peak.ne.jp/)
+Author       | @RyujiAMANO Ryuji Amano (https://ryus.co.jp/)
+Update       | Update by @nao-pon Naoki Sawada, @gigamaster Nuno Luciano (XCL7)
+Copyright    | 2005-2022 Authors
+License      | XCL module distributed under a GPL 2.0 License.
 
-The original XOOPS block of "Waiting Contents" works only for official modules,
-and is no longer extensible.
-It is nonsense to have to do Hack for yourself when you use 3rd party modules.
 
-By installing this module and adding proper plug-ins only,
-you as webmaster can confirm any approval waitings of any modules at one view.
+##### :computer: The Minimum Requirements
 
+
+
+          Apache, Nginx, etc. PHP 7.2.x
+          MySQL 5.6, MariaDB  InnoDB utf8 / utf8mb4
+          XCL version 2.3.+
+
+
+
+-----
+
+## ///// — Module Waiting
+
+
+This module features an extensible Block of waiting content in a single view.  
+
+The original XOOPS2 block of "Waiting Contents" works only for official modules,  
+and is no longer extensible. It is nonsense to hack it for XCL when using 3rd party modules.  
+
+By installing this module and adding the proper plug-ins only,  
+webmasters can approve and confirm pending content from any module.  
+
+
+
+          PEAK XOOPS --Support & Experiment  
+          A module that displays plugin-extensible content blocks awaiting approval
+          The module distributed by xoops.peak.ne.jp  
+          maintained by XOOPS X (ten) distribution.
+
+Below, the README that came with the original package
+
+-----
 
 NEW FEATURE in 0.8
 
 - plug-ins for waiting can be placed inside module's directory
 
-If you as module developper put your plug-in as modules/(your module)/include/waiting.plugin.php, waiting module will find it.
-The plugin in module's directory has higher prioriy than the plugin in waiting's directory.
+If a module developper place the plug-in in modules/(moduleName)/include/waiting.plugin.php  
+the Module Waiting will automaticall find it. The plugin in module's directory has higher prioriy  
+than the plugin in Module waiting's directory.
 
-- multiple waitings can be returned from single function
+- return multiple waiting items with a single function
 
-You can return waitings multiplly with the format as follows:
+Return multiple items still waiting approval with the following array:
 [code]
 array(
   array("adminlink"=>URL",
@@ -43,22 +81,23 @@ array(
 )
 [/code]
 
-If you'll return just one waiting, this format is also ok.
+If you return just one item waiting, still using an array is also ok.
 [code]
   array("adminlink"=>URL",
         "pendingnum"=>NUM,
         "lang_linkname"=>LINKNAME)
 [/code]
-It will be deprecated functions named b_waiting_(dirname)_X
 
-- modified the template as watings belonging modules
+Deprecated functions named b_waiting_(dirname)_X
 
-This modification makes that plug-ins need not to return the information of the module. It is enough to display short message like "submitted".
+- modify the template for module waiting
+
+This modification won't require the plug-in to return any information of the module.    
+It is enough to display a short message like "submitted".
 
 
-
-This module is made by Ryuji (http://ryus.co.jp/)
-If you can read Japanese, let's visit Ryuji's site!
+Module made by Ryuji (https://ryus.co.jp/)
+If you can read Japanese, visit Ryuji's site!
 
 
 [/xlang:en]
@@ -67,7 +106,7 @@ If you can read Japanese, let's visit Ryuji's site!
 waitingモジュール
 
 元はRyujiさん作のモジュールでしたが、いつの間にかメンテナンスを引き受けたような形になってます。
-http://ryus.co.jp/
+https://ryus.co.jp/
 
 *概要
 プラグインで拡張可能な承認待ちコンテンツブロック

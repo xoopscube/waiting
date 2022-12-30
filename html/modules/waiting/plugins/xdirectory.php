@@ -36,6 +36,3 @@ function b_waiting_xdirectory()
 
 	return $ret;
 }
-
-
-?>

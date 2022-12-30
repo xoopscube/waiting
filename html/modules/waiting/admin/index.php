@@ -12,7 +12,7 @@ $plugins_path = XOOPS_ROOT_PATH . "/modules/waiting/plugins";
 $module_handler =& xoops_gethandler('module');
 $block = array();
 
-//¥¤¥ó¥¹¥È¡¼¥ë¤µ¤ì¤Æ¤¤¤ë¥â¥¸¥å¡¼¥ë¥ê¥¹¥È¤òÆÀ¤ë¡£
+//ï¿½ï¿½ï¿½ó¥¹¥È¡ï¿½ï¿½ë¤µï¿½ï¿½Æ¤ï¿½ï¿½ï¿½â¥¸ï¿½å¡¼ï¿½ï¿½ê¥¹ï¿½È¤ï¿½ï¿½ï¿½ï¿½ë¡£
 $mod_lists = $module_handler->getList(new Criteria(1,1),true);
 echo "<h4>"._AM_WAITING_PLUGINLIST."</h4>";
 echo "<table class='outer'>";
@@ -26,4 +26,3 @@ echo "</table>";
 echo _AM_WAITING_PLUGINLIST_DESC;
 
 xoops_cp_footer();
-?>
